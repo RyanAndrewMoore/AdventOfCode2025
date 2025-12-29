@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Day9;
 
-Console.WriteLine("Hello, World!");
+var part1Tiles = new TileMap(args[0]);
+var largestArea = part1Tiles.GetAllRectangleAreas().Max();
+
+Console.WriteLine($"Part 1 Answer: {largestArea}");
