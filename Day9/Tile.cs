@@ -2,6 +2,6 @@ namespace Day9;
 
 public class Tile
 {
-    public long X { get; init; }
-    public long Y { get; init; }
+    public int X { get; init; }
+    public int Y { get; init; }
 }
